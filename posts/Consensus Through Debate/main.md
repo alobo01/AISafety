@@ -1,6 +1,6 @@
 # **AI Safety Through Consensus: Bridging Divides in Machines and Society**
 
-*How can we align advanced AI systems with human values without falling into the trap of polarized "winner-takes-all" debates? This article synthesizes two complementary approaches: (1) adversarial debate (Irving et al.'s [*AI Safety via Debate* (2018)](https://arxiv.org/abs/1805.00899v2)) and consensus-building frameworks (Seeds for Change)—to propose a **hybrid methodology** for AI safety.*
+*How can we align advanced AI systems with human values without falling into the trap of polarized "winner-takes-all" debates? This article synthesizes two complementary approaches: (1) adversarial debate (Irving et al.'s [*AI Safety via Debate* (2018)](https://arxiv.org/abs/1805.00899v2)) and (2)consensus-building frameworks (Seeds for Change)—to propose a **hybrid methodology** for AI safety.*
 
 ---
 
