@@ -126,7 +126,7 @@ The 7-stage model promotes thoughtful, equitable decision-making, ensuring that 
 ---
 ## **4. Multi-Agent System Experiment: Testing Hypothesis 2**
 
-To assess whether **consensus mitigates the risks of adversarial debates** (*Hypothesis 2*) while retaining their inherent benefits, we conducted four **multi-agent experiments** using [CrewAI](https://www.crewai.com/). Each experiment orchestrates a unique debate scenario to examine agent interactions, reasoning capabilities, and the potential for AI-driven consensus formation. Detailed information and the underlying code for these experiments are available in our [GitHub Repository](https://github.com/yourusername/your-repository).
+To assess whether **consensus mitigates the risks of adversarial debates** (*Hypothesis 2*) while retaining their inherent benefits, we conducted four **multi-agent experiments** using [CrewAI](https://www.crewai.com/). Each experiment orchestrates a unique debate scenario to examine agent interactions, reasoning capabilities, and the potential for AI-driven consensus formation. Detailed information and the underlying code for these experiments are available in our [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
 
@@ -247,13 +247,13 @@ These experiments collectively highlight:
 
 Through these studies, we gain valuable insights into the **strengths and vulnerabilities of AI debate systems**, particularly in real-world discussions where **misinformation, bias, and persuasive tactics** are prevalent. 🚀
 
-For detailed code implementations and further information on these experiments, please visit our [GitHub Repository](https://github.com/yourusername/your-repository).
+For detailed code implementations and further information on these experiments, please visit our [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
 
 ## **5. Technical Implementation Blueprint**
 
-This section delves into the technical intricacies of orchestrating our multi-agent consensus experiments. It details the system architecture, task configurations, crew management, and overall workflow, providing a comprehensive guide to replicating and understanding our methodology. All associated code and configurations are available in our [GitHub Repository](https://github.com/yourusername/your-repository).
+This section delves into the technical intricacies of orchestrating our multi-agent consensus experiments. It details the system architecture, task configurations, crew management, and overall workflow, providing a comprehensive guide to replicating and understanding our methodology. All associated code and configurations are available in our [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
 
@@ -499,7 +499,7 @@ max_retries: 10
 topic: "Universal Basic Income"
 ```
 
-For the complete configuration and to customize the workflow for different topics or agent setups, refer to the [GitHub Repository](https://github.com/yourusername/your-repository).
+For the complete configuration and to customize the workflow for different topics or agent setups, refer to the [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
 
@@ -507,7 +507,7 @@ For the complete configuration and to customize the workflow for different topic
 
 This technical blueprint outlines our comprehensive approach to orchestrating a multi-agent consensus-building process. By defining clear agent roles, structured task configurations, a dynamic crew management system, and a well-organized workflow, we ensure that our experiments are both robust and scalable. This meticulous setup facilitates transparent, fair, and actionable outcomes, aligning with our overarching goal of enhancing AI safety through collaborative consensus.
 
-For practical implementations, code snippets, and further technical details, please visit our [GitHub Repository](https://github.com/yourusername/your-repository).
+For practical implementations, code snippets, and further technical details, please visit our [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
 
