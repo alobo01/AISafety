@@ -383,6 +383,8 @@ The consensus-building process is segmented into four main phases, each correspo
 3. **Phase 6**
 4. **Phase 7**
 
+![flowVisual](media/flow.png)
+
 This structured flow ensures that each phase builds upon the previous one, facilitating a coherent and organized consensus process.
 
 ```python
