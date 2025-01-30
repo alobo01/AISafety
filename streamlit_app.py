@@ -1,15 +1,15 @@
 import streamlit as st
 import os
 from urllib.parse import urlencode
-import debugpy
+# import debugpy
 
 
 # Start the remote debugger (listen on a specific port)
-def start_debugger():
-    debugpy.listen(("0.0.0.0", 5678))  # Adjust the port as needed
-    print("Remote debugger is listening on port 5678")
-    debugpy.wait_for_client()  # Optional: Wait for the debugger to attach
-    print("Debugger attached")
+# def start_debugger():
+#     debugpy.listen(("0.0.0.0", 5678))  # Adjust the port as needed
+#     print("Remote debugger is listening on port 5678")
+#     debugpy.wait_for_client()  # Optional: Wait for the debugger to attach
+#     print("Debugger attached")
 
 # Uncomment this line to activate the debugger
 # start_debugger()
