@@ -59,7 +59,7 @@ for post in posts:
 
 # Main content
 query_params = st.query_params
-selected_post_title = query_params.get("post", [None])
+selected_post_title = query_params.get("post", None)
 isCodeBlock = False
 codeLanguage = None
 codeBlock =""
