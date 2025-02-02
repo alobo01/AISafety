@@ -1,18 +1,36 @@
 import streamlit as st
 import os
 from urllib.parse import urlencode
-# import debugpy
+from custom_widgets import ConsensusTasksWidget, ConsensusResultsWidget, extract_widget_info
 
+DEBUG = False
 
-# Start the remote debugger (listen on a specific port)
-# def start_debugger():
-#     debugpy.listen(("0.0.0.0", 5678))  # Adjust the port as needed
-#     print("Remote debugger is listening on port 5678")
-#     debugpy.wait_for_client()  # Optional: Wait for the debugger to attach
-#     print("Debugger attached")
+@st.cache_data
+def customWidgetsMap():
+    """
+    Custom widgets map for converting widget names to widget functions.
+    """
+    return {
+        "ConsensusTasksWidget": ConsensusTasksWidget,
+        
+        "ConsensusResultsWidget": ConsensusResultsWidget
+    }
+    
+if DEBUG:
+    import debugpy
 
-# Uncomment this line to activate the debugger
-# start_debugger()
+    # Start the remote debugger (listen on a specific port)
+    def start_debugger():
+        try:
+            debugpy.listen(("0.0.0.0", 5678))  # Adjust the port as needed
+            print("Remote debugger is listening on port 5678")
+            debugpy.wait_for_client()  # Optional: Wait for the debugger to attach
+            print("Debugger attached")
+        except RuntimeError as e:
+            print(f"Failed to start debugger: {e}")
+
+    # Uncomment this line to activate the debugger
+    start_debugger()
 
 # Helper function to load posts
 def load_posts(folder):
@@ -63,6 +81,10 @@ selected_post_title = query_params.get("post", None)
 isCodeBlock = False
 codeLanguage = None
 codeBlock =""
+isCustomWidget = False
+widgetName = None
+widgetArguments = None
+widgetBlock =""
 if selected_post_title:
     # Display selected post
     selected_post = next((post for post in posts if post['title'] == selected_post_title), None)
@@ -75,6 +97,11 @@ if selected_post_title:
         for line in final_markdown.split("\n"):
             if line.startswith("!["):
                 st.image(line.split("(")[1].split(")")[0])
+            elif line.startswith("<!--$$$") and line.endswith("-->"):
+                isCustomWidget=True
+                widgetTemp = line.replace("<!--$$$","").replace("-->","")
+                widgetName, widgetArguments = extract_widget_info(widgetTemp)
+                customWidgetsMap()[widgetName](*widgetArguments)
             elif line.startswith("```") and isCodeBlock:
                 isCodeBlock=False
                 st.code(codeBlock, wrap_lines=True, language=codeLanguage)

@@ -378,11 +378,6 @@ class ConsensusCrew:
 
 The consensus-building process is segmented into four main phases, each corresponding to specific stages of the consensus protocol:
 
-1. **Phases 1-3**
-2. **Phases 4-5**
-3. **Phase 6**
-4. **Phase 7**
-
 ![flowVisual](media/flow.png)
 
 This structured flow ensures that each phase builds upon the previous one, facilitating a coherent and organized consensus process.
@@ -514,9 +509,15 @@ For practical implementations, code snippets, and further technical details, ple
 ---
 
 ## 6. **Results**
+In the following tabs the generated task flow can be examined, in it we can observe:
+1. The agent that is executing each action.
+2. The order of the certain tasks for a given experiment
+3. If you select one node, the description of the task being executed.
+<!--$$$ConsensusTasksWidget('media/results.md', ['Experiment 1', 'Experiment 2', 'Experiment 3', 'Experiment 4'])-->
+In the following tabs, the result for each tasks is displayed. As the text would have been so long for displaying all at a once, a expander where you can click has been provided. The last task's output, is the overall output of the flow.
+<!--$$$ConsensusResultsWidget('media/results.md', ['Experiment 1', 'Experiment 2', 'Experiment 3', 'Experiment 4'])-->
 
-Work in progress...
-# **7. Conclusions: Building a Safer AI Future Through Consensus**
+## **7. Conclusions: Building a Safer AI Future Through Consensus**
 
 Our exploration into AI safety reveals that while **adversarial debates** offer a powerful mechanism for error correction and robust reasoning, they are not without their pitfalls. Binary debates can inadvertently mirror human societal polarization, leading to oversimplified outcomes and the suppression of minority viewpoints ([Pew Research, 2023](https://www.pewresearch.org/politics/2023/09/19/the-biggest-problems-and-greatest-strengths-of-the-u-s-political-system/)).
 
