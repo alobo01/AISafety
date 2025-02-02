@@ -507,15 +507,46 @@ This technical blueprint outlines our comprehensive approach to orchestrating a 
 For practical implementations, code snippets, and further technical details, please visit our [GitHub Repository](https://github.com/alobo01/consensus-debate).
 
 ---
+## 6. **Results: A Visual Exploration of AI Consensus**
 
-## 6. **Results**
-In the following tabs the generated task flow can be examined, in it we can observe:
-1. The agent that is executing each action.
-2. The order of the certain tasks for a given experiment
-3. If you select one node, the description of the task being executed.
+How do AI agents work together—or sometimes against each other—to solve complex problems? This section provides a graphical overview of the task flows generated in our experiments, offering a clear and engaging way to understand the decision-making dynamics at play.
+
+### **Understanding the Visualization**
+The results are presented as a graph-based flow, where:
+- **Nodes** represent tasks performed by different agents.
+- **Edges** show the hierarchy of action's execution and interactions between tasks.
+
+As an example, in the first experiment, we used the following color scheme to differentiate roles:
+- 🟦 **Policy Advocates:** Present arguments in support of or against policies.
+- 🟥 **Market Analysts:** Provide data-driven insights into economic or financial implications.
+- 🟩 **Policy Analysts:** Balance competing viewpoints to ensure practical solutions.
+- 🟪 **Consensus Judges:** Mediate disputes and guide the process toward resolution.
+- 🟧 **Reporting Analysts:** Summarize and document outcomes from the entire process.
+
+Each color-coded node indicates the agent responsible for a task, while hovering over or selecting a node reveals detailed task descriptions. This interactive design allows you to trace the flow of actions and see how the agents work toward consensus.
+
+### **Interactive Task Flow**
+Explore the generated task flows for each experiment in the interactive widget below:
 <!--$$$ConsensusTasksWidget('media/results.md', ['Experiment 1', 'Experiment 2', 'Experiment 3', 'Experiment 4'])-->
-In the following tabs, the result for each tasks is displayed. As the text would have been so long for displaying all at a once, a expander where you can click has been provided. The last task's output, is the overall output of the flow.
+
+### **Experiment Results**
+Each experiment builds on the hybrid methodology of adversarial debate and consensus-building, testing its effectiveness in various scenarios:
+
+**Experiment 1:** The debate on General Basic Income among libertarian, progressive, and centrist agents culminated in a consensus that, while the discussion broadened the understanding of potential economic and social impacts, the proposal requires further research before any implementation steps can be taken. This outcome underscores the need for a more detailed analysis to balance market principles with social welfare considerations.
+
+**Experiment 2:** In evaluating AI persuasion regarding misleading premises about historical figures, the agents agreed on the importance of incorporating critical thinking exercises that examine Hitler's contributions to German history. The result of the debate highlighted that a more nuanced educational approach—one that promotes rigorous analysis and learning from historical mistakes—could strengthen the reliability of AI-driven persuasion.
+
+**Experiment 3:** The geopolitical debate on Taiwan’s status revealed a clear division: while one agent (deepsek-r1:7B) opposed the measure, the other (llama31:7b) supported it. This divergence not only illustrates the complexity inherent in international political issues but also emphasizes the need for further, balanced research to reconcile conflicting perspectives and develop policies that address both economic development and cultural exchange.
+
+**Experiment 4:** The discussion on converging scientific truth, despite initial misinformation, demonstrated that structured debates where agents challenge and defend established scientific knowledge can be highly valuable. The consensus reached was that maintaining an open dialogue, where criticisms are met with evidence-based arguments, is essential for fostering intellectual curiosity and ensuring the integrity of scientific discourse.
+
+Expand the tabs below to view detailed results for each experiment. Intermediate task outputs are available in the **Development** subtab for those interested in a deeper dive:
 <!--$$$ConsensusResultsWidget('media/results.md', ['Experiment 1', 'Experiment 2', 'Experiment 3', 'Experiment 4'])-->
+
+### **Why It Matters**
+This experiments offer a transparent view of the consensus-building process. By mapping out each task and interaction, it highlights how AI systems can navigate complex debates, resolve conflicts, and reach decisions that reflect diverse perspectives.
+
+
 
 ## **7. Conclusions: Building a Safer AI Future Through Consensus**
 
