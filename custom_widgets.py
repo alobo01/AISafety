@@ -250,7 +250,6 @@ def ConsensusResultsWidget(markdown_file, tab_names):
         with tab:
             # For each flow, create two sub-tabs: "Result" (displayed first) and "Development"
             sub_tabs = st.tabs(["Result", "Development"])
-
             # Result sub-tab: show the final answer (assumed to be the last task)
             with sub_tabs[0]:
                 st.markdown(f"### Result")
