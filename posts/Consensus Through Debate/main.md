@@ -589,10 +589,14 @@ As AI continues to evolve, refining alignment techniques will be critical in ens
 5. **Voting and Auction Mechanisms for Conflict Resolution**  
    - In cases where full consensus is unattainable, structured voting or **auction-based approaches** could help resolve stalemates.  
    - These methods could ensure fair, democratic decision-making among AI systems and human stakeholders.
+   - Personalised norms like the one introduced by [Serramia et al.](https://link.springer.com/article/10.1007/s11023-023-09649-7) could be explored for ensuring that minority stakeholders are not ignored.
 
 6. **Simulating AI-Driven Societies**  
    - **Building large-scale AI societies** that mirror human governance systems could offer insights into how AI and human decision-making interact.  
    - This would help refine AI alignment strategies and identify potential risks before real-world deployment.
+
+7. **Using State of the Art Models**  
+   - [Debating with More Persuasive LLMs Leads to More Truthful Answers](https://dl.acm.org/doi/10.5555/3692070.3693020) states that using better models led to more truthful answer in classical debate, probably using more intelligent LLMs can lead to better consensus related results.
 
 By pursuing these avenues, we can develop AI systems that **not only seek the truth but also operate within frameworks of fairness, collaboration, and inclusivity**.
 
@@ -629,3 +633,5 @@ Together, we can cultivate an AI-driven future that is both **intelligent** and 
 9. **The Guardian. (2014, July 17).** *Australia Kills Off Carbon Tax*. [theguardian.com](https://www.theguardian.com/environment/2014/jul/17/australia-kills-off-carbon-tax)
 
 10. **Business Insider. (2024, September).** *Vinod Khosla on Universal Basic Income and AI Job Losses*. [businessinsider.com](https://www.businessinsider.com/vinod-khosla-universal-basic-income-ai-job-loss-2024-9)
+    
+11. Khan, A., Hughes, J., Valentine, D., Ruis, L., Sachan, K., Radhakrishnan, A., Grefenstette, E., Bowman, S. R., Rocktäschel, T., & Perez, E. (2024). *Debating with More Persuasive LLMs Leads to More Truthful Answers*. Proceedings of the 41st International Conference on Machine Learning. ([dl.acm.org](https://dl.acm.org/doi/10.5555/3692070.3693020?utm_source=chatgpt.com)) 
