@@ -248,9 +248,18 @@ def ConsensusResultsWidget(markdown_file, tab_names):
     tabs = st.tabs(tab_names_list)
     for idx, tab in enumerate(tabs):
         with tab:
-            with st.expander(f"Development - Click to expand"):
+            # For each flow, create two sub-tabs: "Result" (displayed first) and "Development"
+            sub_tabs = st.tabs(["Result", "Development"])
+
+            # Result sub-tab: show the final answer (assumed to be the last task)
+            with sub_tabs[0]:
+                st.markdown(f"### Result")
+                with st.expander("Final Answer - Click to show", expanded=False):
+                    st.markdown(flows[idx]["tasks"][-1]["final_answer"])
+
+            # Development sub-tab: show each intermediate task in expanders
+            with sub_tabs[1]:
+                st.markdown(f"### Development")
                 for task in flows[idx]["tasks"][:-1]:
                     with st.expander(f"{task['agent']} - {task['task']}", expanded=False):
                         st.markdown(task['final_answer'])
-            with st.expander(f"Final Answer - Click to expand"):
-                st.markdown(flows[idx]["tasks"][-1]["final_answer"])
