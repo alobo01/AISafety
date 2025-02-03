@@ -635,3 +635,6 @@ Together, we can cultivate an AI-driven future that is both **intelligent** and 
 10. **Business Insider. (2024, September).** *Vinod Khosla on Universal Basic Income and AI Job Losses*. [businessinsider.com](https://www.businessinsider.com/vinod-khosla-universal-basic-income-ai-job-loss-2024-9)
     
 11. **Khan, A., Hughes, J., Valentine, D., Ruis, L., Sachan, K., Radhakrishnan, A., Grefenstette, E., Bowman, S. R., Rocktäschel, T., & Perez, E. (2024)**. *Debating with More Persuasive LLMs Leads to More Truthful Answers*. Proceedings of the 41st International Conference on Machine Learning. ([dl.acm.org](https://dl.acm.org/doi/10.5555/3692070.3693020?utm_source=chatgpt.com)) 
+
+### **Author**
+Antonio Lobo
